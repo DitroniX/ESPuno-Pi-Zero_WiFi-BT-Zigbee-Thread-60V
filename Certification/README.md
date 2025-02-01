@@ -1,26 +1,15 @@
-# ESPuno Pi Zero
+**Certification Documentation - External**
 
-**NEW For February 2025!**
-
-ESPuno Pi Zero is a STEM Maker and Developer SDK board based on an Epsressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
-
-**This is being launched mid February 2025 on KickStarter**   - Details to follow
-
-**Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
-
-[![KickStarter](https://github.com/DitroniX/DitroniX/blob/main/Files/KickStarter-SupportUs.png 'KickStarter')](https://www.kickstarter.com/profile/ditronix/created)
+These Certification Documents pertain to the related Manufacturer MCU, covering both Wireless and Bluetooth RF Testing.
 
 
-[![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
-
-Our STEM SDK boards and accessories are available from our online shop on [eBay](https://www.ebay.co.uk/usr/ditronixuk) 
 ## **Further Information**
 
 Additional information, and other technical details on this project, maybe found in the related repository pages.
 
 **Repository Folders**
 
- - **Code** *(Code examples for Raspberry, Arduino  IDE and PlatformIO)*
+ - **Code** *(Code examples for Arduino  IDE, Raspberry Pi and PlatformIO)*
  -  **Datasheets and Information** *(Component Datasheets, Schematics, Board Layouts, Photos, Technical Documentation)*
  - **Certification** *(Related Repository Project or Part, Certification Information)*
 
@@ -52,3 +41,4 @@ Electronics Engineer | Software Developer | R&D Support | RF Engineering | Produ
 Life is one long exciting learning curve, help others by setting the seed to knowledge.
 
 ![DitroniX Supporting STEM](https://hackster.imgix.net/uploads/attachments/1606838/stem_ambassador_-_100_volunteer_badge_edxfxlrfbc1_bjdqharfoe1_xbqi2KUcri.png?auto=compress%2Cformat&w=540&fit=max)
+
