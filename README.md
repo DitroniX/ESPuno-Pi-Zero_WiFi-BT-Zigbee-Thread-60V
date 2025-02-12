@@ -8,6 +8,33 @@ ESPuno Pi Zero is a STEM Maker and Developer SDK board based on an Epsressif ESP
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
+Features Include:
+
+ - ESPuno Pi Zero - ESP32-C6
+	 - ESP32-C6-MINI 
+	 - Wi-Fi 6 2.4 GHz 802.11ax | 802.11b/g/n 
+	 - Bluetooth | LE | 5.3 | Mesh
+	 - Thread 1.4 | 802.15.4 | Mesh
+	 - Zigbee 3.0 | 802.15.4 | Mesh
+ - 60V DC Wide range of Input DC Voltages 5V to 60V
+ - Compact mechanical Pi Zero form 
+ - Powered from:
+	 - USB C 
+	 - External 5-60V DC 
+	 - Battery
+ - RS-485 Industry Standard MODBUS Interface
+ - PCA9671 GPIO Expander
+ - TMP102 Digital Temperature Sensor
+ - Voltage Regulators 3V3 and 5V
+ - GROVE I2C Expansion Interface
+ - ADC Inputs
+ - PWM Output
+ - EEPROM (64Kbit) for On-board Data Logging and User Parameters
+ - UART Integrated Type C ‘ESP32-C6 DEV’ Interface
+ - RTC On-Board 32.768 kHz XTAL for Real Time Clock
+ - RGB Status User Programmable LED 
+ - Tactile Buttons Reset and PGM  / User
+
 [![KickStarter](https://github.com/DitroniX/DitroniX/blob/main/Files/KickStarter-SupportUs.png 'KickStarter')](https://www.kickstarter.com/profile/ditronix/created)
 
 ![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
