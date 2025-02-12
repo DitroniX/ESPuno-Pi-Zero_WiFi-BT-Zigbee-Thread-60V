@@ -4,13 +4,16 @@
 
 ESPuno Pi Zero is a STEM Maker and Developer SDK board based on an Epsressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
-**This is being launched mid February 2025 on KickStarter**   - Details to follow
+**This is being launched early March 2025 on KickStarter**   - Details to follow
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
 [![KickStarter](https://github.com/DitroniX/DitroniX/blob/main/Files/KickStarter-SupportUs.png 'KickStarter')](https://www.kickstarter.com/profile/ditronix/created)
 
-![enter image description here](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
+![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
+
+![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Features%20View.png)
+
 
 [![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
 
