@@ -8,6 +8,11 @@ ESPuno Pi Zero is a STEM Maker and Developer SDK board based on an Epsressif ESP
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
+[![KickStarter](https://github.com/DitroniX/DitroniX/blob/main/Files/KickStarter-SupportUs.png 'KickStarter')](https://www.kickstarter.com/profile/ditronix/created)
+
+![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
+
+
 Features Include:
 
  - ESPuno Pi Zero - ESP32-C6
@@ -34,10 +39,6 @@ Features Include:
  - RTC On-Board 32.768 kHz XTAL for Real Time Clock
  - RGB Status User Programmable LED 
  - Tactile Buttons Reset and PGM  / User
-
-[![KickStarter](https://github.com/DitroniX/DitroniX/blob/main/Files/KickStarter-SupportUs.png 'KickStarter')](https://www.kickstarter.com/profile/ditronix/created)
-
-![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
 
 ![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Features%20View.png)
 
