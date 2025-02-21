@@ -2,7 +2,13 @@
 
 **NEW For February 2025!**
 
-ESPuno Pi Zero is a STEM Maker and Developer SDK board based on an Epsressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
+**ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Epsressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
+
+ - Ideal for Education and Classroom projects.   Learning about interfacing and RS-485 or MODBUS control.
+ - Ideal for Solar Energy Monitoring Projects, so being powered directly from the 48V Battery for example.
+ - Ideal for Battery powered projects such as Robotics, Vehicles, Boats and University Projects.
+ - Ideal for Farm and Agriculture Projects.
+ - Ideal for Industrial applications, Test Systems, Development and MODBUS Control.
 
 **Raspberry Pi Emulator**
 
@@ -38,12 +44,12 @@ Features Include:
  - PCA9671 GPIO Expander
  - TMP102 Digital Temperature Sensor
  - Voltage Regulators 3V3 and 5V
- - GROVE I2C Expansion Interface
+ - GROVE Ecosystem I2C Expansion Interface
  - ADC Inputs
  - PWM Output
  - EEPROM (64Kbit) for On-board Data Logging and User Parameters
  - UART Integrated Type C ‘ESP32-C6 DEV’ Interface
- - RTC On-Board 32.768 kHz XTAL for Real Time Clock
+ - RTC On-Board 32.768 kHz XTAL for ESP32-C6 Real Time Clock
  - RGB Status User Programmable LED 
  - Tactile Buttons Reset and PGM  / User
 
