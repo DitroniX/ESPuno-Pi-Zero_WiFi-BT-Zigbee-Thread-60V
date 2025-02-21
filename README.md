@@ -4,6 +4,10 @@
 
 ESPuno Pi Zero is a STEM Maker and Developer SDK board based on an Epsressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
+**Raspberry Pi Emulator**
+
+The **ESPuno Pi Zero**, is a pin compatible Raspberry Pi ESP32 Controller and Emulator in a single board.  The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6, so bringing Raspberry Pi PiHat's and Breakout boards to the Arduino Embedded controller world.
+
 **This is being launched early March 2025 on KickStarter**   - Details to follow
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
