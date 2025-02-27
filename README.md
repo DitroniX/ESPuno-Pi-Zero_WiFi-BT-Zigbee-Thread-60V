@@ -13,6 +13,7 @@
  - Ideal for Industrial applications, Test Systems, Development and MODBUS Sensors, SCADA or PLC's.
 
 **This is being launched early March 2025 on KickStarter**   - Expanding details to follow
+
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
 [![KickStarter](https://github.com/DitroniX/DitroniX/blob/main/Files/KickStarter-SupportUs.png 'KickStarter')](https://www.kickstarter.com/profile/ditronix/created)
