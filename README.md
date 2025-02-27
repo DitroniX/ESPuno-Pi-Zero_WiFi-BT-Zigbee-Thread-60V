@@ -1,24 +1,37 @@
 # ESPuno Pi Zero
 
-**NEW For February 2025!**
+## NEW For February 2025!
 
-**ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Epsressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
+**ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
- - Ideal for Education and Classroom projects.   Learning about interfacing and RS-485 or MODBUS control.
- - Ideal for Solar Energy Monitoring Projects, so being powered directly from the 48V Battery for example.
- - Ideal for Battery powered projects such as Robotics, Vehicles, Boats and University Projects.
- - Ideal for Farm and Agriculture Projects.
- - Ideal for Industrial applications, Test Systems, Development and MODBUS Control.
+ - Ideal for Educational and Classroom projects. 
+ - Ideal for Solar Energy Monitoring Projects - being powered directly from a 48V Battery for example.
+ - Ideal for Battery powered projects such as Robotics, Cars and Vehicles, Boats and University Projects.
+ - Ideal for Farming and Agricultural Projects.
+ - Ideal for learning about interfacing RS-485 Serial Communication
+ - Ideal for MODBUS RTU (Remote Terminal Unit), control
+ - Ideal for Industrial applications, Test Systems, Development and MODBUS Sensors, SCADA or PLC's.
 
-**Raspberry Pi Emulator**
-
-The **ESPuno Pi Zero**, is a pin compatible Raspberry Pi ESP32 Controller and Emulator in a single board.  The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6, so bringing Raspberry Pi PiHat's and Breakout boards to the Arduino Embedded controller world.
-
-**This is being launched early March 2025 on KickStarter**   - Details to follow
-
+**This is being launched early March 2025 on KickStarter**   - Expanding details to follow
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
 [![KickStarter](https://github.com/DitroniX/DitroniX/blob/main/Files/KickStarter-SupportUs.png 'KickStarter')](https://www.kickstarter.com/profile/ditronix/created)
+
+## Raspberry Pi Emulator
+
+The **ESPuno Pi Zero**, is a pin compatible Raspberry Pi ESP32 Controller and Emulator in a single board.  
+
+The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Expander, so bringing Raspberry Pi PiHat's and Breakout boards to the Arduino Embedded controller world.
+
+## Updates
+
+-   25-02-27 - Prototype board being fabricated / SMT populated
+-   25-02-22 - Prototype schematic and board layout 
+-   25-02-15 - BOM and Components
+-   25-02-08 - Prototype feature list finalised
+
+
+## ESPuno Pi Zero - Overview
 
 ![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
 
@@ -26,28 +39,40 @@ ESPuno Pi Zero - Overview
 ![ESPuno Pi Zero - Overview](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Overview.png)
 
 
-Features Include:
+## ESPuno Pi Zero - Features
 
- - ESPuno Pi Zero - ESP32-C6
+ - ESPuno Pi Zero - Espressif ESP32-C6
 	 - ESP32-C6-MINI 
 	 - Wi-Fi 6 2.4 GHz 802.11ax | 802.11b/g/n 
 	 - Bluetooth | LE | 5.3 | Mesh
 	 - Thread 1.4 | 802.15.4 | Mesh
 	 - Zigbee 3.0 | 802.15.4 | Mesh
- - 60V DC Wide range of Input DC Voltages 5V to 60V
- - Compact mechanical Pi Zero form 
+ - Power from up to 60V DC 
+	 - Wide range of Input DC Voltages 5V to 60V
+ - Compact mechanical Pi Zero form
+	 - Only 65 mm * 30 mm
  - Powered from:
-	 - USB C 
+	 - USB C (5V)
 	 - External 5-60V DC 
-	 - Battery
- - RS-485 Industry Standard MODBUS Interface
+		 - Battery
+		 - Solar Panels
+ - [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/ESPuno-Pi-Zero-RS%E2%80%90485) Interface
+	 - Industry Standard MODBUS
  - PCA9671 GPIO Expander
+ 	 - Pi Header Inputs and Outputs
  - TMP102 Digital Temperature Sensor
- - Voltage Regulators 3V3 and 5V
- - GROVE Ecosystem I2C Expansion Interface
+ - Voltage Regulators
+	 - 5V SMPS 600mA
+	 - 3V3 LDO 700mA
+ - GROVE Ecosystem 
+	 - Standardised I2C Expansion Interface
  - ADC Inputs
+	 - ESP32-C6 
  - PWM Output
- - EEPROM (64Kbit) for On-board Data Logging and User Parameters
+	 - ESP32-C6 
+ - 24C64 EEPROM
+	 - 64Kbit (8192 x 8)
+	 - On-board Data Logging and User Parameters
  - UART Integrated Type C ‘ESP32-C6 DEV’ Interface
  - RTC On-Board 32.768 kHz XTAL for ESP32-C6 Real Time Clock
  - RGB Status User Programmable LED 
