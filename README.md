@@ -8,7 +8,7 @@
 
  - Educational and Classroom projects. 
  - Solar Energy Monitoring Projects - being powered directly from a 48V Battery for example.
- - Battery powered projects such as Robotics, Cars and Vehicles, Boats and University Projects.
+ - Battery powered projects such as Robotics, Drones, Cars and Vehicles, Boats and University Projects.
  - Farming and Agricultural Projects.
  - Learning about interfacing RS-485 Serial Communication.
  - MODBUS RTU (Remote Terminal Unit), Control.
@@ -70,7 +70,7 @@ ESPuno Pi Zero - Overview
  - GROVE Ecosystem 
 	 - Standardised I2C Expansion Interface
  - ADC Inputs
-	 - ESP32-C6 
+	 - ESP32-C6 12-bit
  - PWM Output
 	 - ESP32-C6 
  - 24C64 EEPROM
@@ -83,6 +83,62 @@ ESPuno Pi Zero - Overview
 
 ![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Features%20View.png)
 
+## Software Development
+
+The ESPuno Pi Zero, ESP32-C6 development is supported on the following examples, but not exclusively:
+
+ - Arduino IDE
+ - Bytebeam
+ - CircuitPython
+ - ESP Easy (Let's Control It)
+ - ESP RainMaker
+ - ESP ZeroCode
+ - ESPHome
+ - ESP-IDF FreeRTOS
+ - Espressif’s open-source ESP-IDF (Espressif IoT Development Framework)
+ - FreeRTOS (IDF)
+ - Home Assistant
+ - Matter Platforms
+ - MicroPython
+ - openHAB
+ - OpenPLC 
+ - Platform IO (Cross-platform)
+ - Robot Framework
+ - Tasmota
+ - ThingsBoard
+ - Visual Studio Code (with ESP-IDF extension)
+ - Visual Studio Code(VS Code 2024)
+ - VisualGDB
+ - VSCode (with Platform IO)
+
+## Home Automation and IoT
+
+The ESPuno Pi Zero, ESP32-C6 development could be used and supported on the following IoT platforms, but not exclusively:
+
+ - Home Assistant
+ - Domoticz
+ - openHAB
+ - Node-RED
+ - Zabbix
+ - ThingsBoard
+ - Google Cloud
+ - ThingSpeak
+ - EasyIoT
+ - RabbitMQ
+ - HiveMQ
+
+## Firmware Development Drivers/Framework
+
+Examples of native development board drivers which supports ESPuno Pi Zero UART port for flashing and serial terminal:
+
+ - Adafruit Feather ESP32-C6
+ - DFRobot Beetle ESP32-C6
+ - IOXESP32-C6
+ - Xiao ESP32C6
+ - Olimex ESP32-C6 EVB
+ - ESP32-C6-DevKitM-1 (PIO framework = espidf)
+
+GitHub support for  ESPuno Pi Zero information, code and community discussions, presented on github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V
 
 [![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
 
