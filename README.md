@@ -4,13 +4,15 @@
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
- - Ideal for Educational and Classroom projects. 
- - Ideal for Solar Energy Monitoring Projects - being powered directly from a 48V Battery for example.
- - Ideal for Battery powered projects such as Robotics, Cars and Vehicles, Boats and University Projects.
- - Ideal for Farming and Agricultural Projects.
- - Ideal for learning about interfacing RS-485 Serial Communication
- - Ideal for MODBUS RTU (Remote Terminal Unit), control
- - Ideal for Industrial applications, Test Systems, Development and MODBUS Sensors, SCADA or PLC's.
+**ESPuno Pi Zero** is ideal for:
+
+ - Educational and Classroom projects. 
+ - Solar Energy Monitoring Projects - being powered directly from a 48V Battery for example.
+ - Battery powered projects such as Robotics, Cars and Vehicles, Boats and University Projects.
+ - Farming and Agricultural Projects.
+ - Learning about interfacing RS-485 Serial Communication.
+ - MODBUS RTU (Remote Terminal Unit), Control.
+ - Industrial applications, Test Systems, Development and MODBUS Sensors, Monitoring, SCADA or PLC's.
 
 **This is being launched early March 2025 on KickStarter**   - Expanding details to follow
 
