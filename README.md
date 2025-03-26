@@ -26,6 +26,8 @@ The **ESPuno Pi Zero**, is a pin compatible Raspberry Pi ESP32 Controller and Em
 
 The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Expander, so bringing Raspberry Pi PiHat's and Breakout boards to the Arduino Embedded controller world.
 
+![ESPuno Pi Zero - PROTO](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20PROTO%201.2502.102.jpg)
+
 ## Updates
 
 -   25-03-23 - Boards now being tested in preparation for KickStarter Launch in April	
