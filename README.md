@@ -1,6 +1,6 @@
 # ESPuno Pi Zero
 
-## NEW For February 2025!
+## NEW For February 2025!  Lauching on KickSter in April 
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
@@ -28,6 +28,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-03-23 - Boards now being tested in preparation for KickStarter Launch in April	
 -   25-02-27 - Prototype board being fabricated / SMT populated
 -   25-02-22 - Prototype schematic and board layout 
 -   25-02-15 - BOM and Components
