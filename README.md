@@ -12,6 +12,7 @@
  - Farming and Agricultural Projects.
  - Learning about interfacing RS-485 Serial Communication.
  - MODBUS RTU (Remote Terminal Unit), Control.
+ - DMX / DMX512 Lighting Controller, Analyser and Interface.
  - Industrial applications, Test Systems, Development and MODBUS Sensors, Monitoring, SCADA or PLC's.
 
 **This is being launched early March 2025 on KickStarter**   - Expanding details to follow
@@ -64,6 +65,7 @@ ESPuno Pi Zero - Overview
 		 - Solar Panels
  - [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/ESPuno-Pi-Zero-RS%E2%80%90485) Interface
 	 - Industry Standard MODBUS
+	 - DMX Lighting Controller Interface
  - PCA9671 GPIO Expander
  	 - Pi Header Inputs and Outputs
  - TMP102 Digital Temperature Sensor
