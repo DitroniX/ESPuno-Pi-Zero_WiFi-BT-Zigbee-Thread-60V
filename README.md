@@ -65,7 +65,7 @@ ESPuno Pi Zero - Overview
 		 - Solar Panels
  - [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/ESPuno-Pi-Zero-RS%E2%80%90485) Interface
 	 - Industry Standard MODBUS
-	 - DMX Lighting COntroller Interface
+	 - DMX Lighting Controller Interface
  - PCA9671 GPIO Expander
  	 - Pi Header Inputs and Outputs
  - TMP102 Digital Temperature Sensor
