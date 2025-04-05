@@ -40,10 +40,12 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## ESPuno Pi Zero - Overview
 
-![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
+![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Information%20Overview.png)
 
 ESPuno Pi Zero - Overview
 ![ESPuno Pi Zero - Overview](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Overview.png)
+
+![ESPuno Pi Zero - Overview](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Features%20Overview.png)
 
 
 ## ESPuno Pi Zero - Features
