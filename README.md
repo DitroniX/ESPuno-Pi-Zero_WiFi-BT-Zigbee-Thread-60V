@@ -31,6 +31,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-04-05 - Proto boards tested and looking great!.  Production board schematic and layout changes finalised. Added DMX Lighting Controller capability.  Preparing for pre-produciton and KickStarter Launch in April.
 -   25-03-23 - Boards now being tested in preparation for KickStarter Launch in April	
 -   25-02-27 - Prototype board being fabricated / SMT populated
 -   25-02-22 - Prototype schematic and board layout 
