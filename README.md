@@ -12,7 +12,7 @@
  - Farming and Agricultural Projects.
  - Learning about interfacing RS-485 Serial Communication.
  - MODBUS RTU (Remote Terminal Unit), Control.
- - DMX / DMX512 Lighting Controller, Analyser and Interface.
+ - [DMX / DMX512](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller, Analyser and Interface.
  - Industrial applications, Test Systems, Development and MODBUS Sensors, Monitoring, SCADA or PLC's.
 
 **This is being launched early March 2025 on KickStarter**   - Expanding details to follow
@@ -31,7 +31,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
--   25-04-05 - Proto boards tested and looking great!.  Production board schematic and layout changes finalised. Added DMX Lighting Controller capability.  Preparing for pre-produciton and KickStarter Launch in April.
+-   25-04-05 - Proto boards tested and looking great!.  Production board schematic and layout changes finalised. Added [DMX](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller capability.  Preparing for pre-production and KickStarter Launch in April.
 -   25-03-23 - Boards now being tested in preparation for KickStarter Launch in April	
 -   25-02-27 - Prototype board being fabricated / SMT populated
 -   25-02-22 - Prototype schematic and board layout 
@@ -68,14 +68,14 @@ ESPuno Pi Zero - Overview
 		 - Solar Panels
  - [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/ESPuno-Pi-Zero-RS%E2%80%90485) Interface
 	 - Industry Standard MODBUS
-	 - DMX Lighting Controller Interface
+	 - [DMX](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller Interface
  - PCA9671 GPIO Expander
  	 - Pi Header Inputs and Outputs
  - TMP102 Digital Temperature Sensor
  - Voltage Regulators
 	 - 5V SMPS 600mA
 	 - 3V3 LDO 700mA
- - GROVE Ecosystem 
+ - [GROVE Ecosystem](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Grove-Ecosystem) 
 	 - Standardised I2C Expansion Interface
  - ADC Inputs
 	 - ESP32-C6 12-bit
