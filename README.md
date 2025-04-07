@@ -10,7 +10,7 @@
  - Solar Energy Monitoring Projects - being powered directly from a 48V Battery for example.
  - Battery powered projects such as Robotics, Drones, Cars and Vehicles, Boats and University Projects.
  - Farming and Agricultural Projects.
- - Learning about interfacing RS-485 Serial Communication.
+ - Learning about interfacing [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/What-is-RS%E2%80%90485) Serial Communication.
  - MODBUS RTU (Remote Terminal Unit), Control.
  - [DMX / DMX512](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller, Analyser and Interface.
  - Industrial applications, Test Systems, Development and MODBUS Sensors, Monitoring, SCADA or PLC's.
