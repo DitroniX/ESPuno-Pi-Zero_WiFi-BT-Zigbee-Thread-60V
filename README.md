@@ -1,6 +1,6 @@
 # ESPuno Pi Zero
 
-## NEW For February 2025!  Lauching on KickSter in April 
+## New for February 2025!  Launching on Kickstarter in April 
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
@@ -10,12 +10,12 @@
  - Solar Energy Monitoring Projects - being powered directly from a 48V Battery for example.
  - Battery powered projects such as Robotics, Drones, Cars and Vehicles, Boats and University Projects.
  - Farming and Agricultural Projects.
- - Learning about interfacing RS-485 Serial Communication.
+ - Learning about interfacing [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/What-is-RS%E2%80%90485) Serial Communication.
  - MODBUS RTU (Remote Terminal Unit), Control.
- - DMX / DMX512 Lighting Controller, Analyser and Interface.
+ - [DMX / DMX512](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller, Analyser and Interface.
  - Industrial applications, Test Systems, Development and MODBUS Sensors, Monitoring, SCADA or PLC's.
 
-**This is being launched early March 2025 on KickStarter**   - Expanding details to follow
+**This is being launched April 2025 on KickStarter**   [URL will become active once live.](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero)
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
@@ -31,6 +31,8 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-04-12 - New [YouTube video](https://www.youtube.com/watch?v=wMoDYLhX5uE) produced and also the ESPuno Pi Zero project submitted to the dragons in the KickStarter world.
+-   25-04-05 - Proto boards tested and looking great!.  Production board schematic and layout changes finalised. Added [DMX](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller capability.  Preparing for pre-production and KickStarter Launch in April.
 -   25-03-23 - Boards now being tested in preparation for KickStarter Launch in April	
 -   25-02-27 - Prototype board being fabricated / SMT populated
 -   25-02-22 - Prototype schematic and board layout 
@@ -40,10 +42,12 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## ESPuno Pi Zero - Overview
 
-![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ditronix.net%20ESPuno%20Pi%20Zero%20-%20ESP32-C6%20-%20Preview%202502.png)
+![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Information%20Overview.png)
 
 ESPuno Pi Zero - Overview
 ![ESPuno Pi Zero - Overview](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Overview.png)
+
+![ESPuno Pi Zero - Overview](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Features%20Overview.png)
 
 
 ## ESPuno Pi Zero - Features
@@ -65,14 +69,14 @@ ESPuno Pi Zero - Overview
 		 - Solar Panels
  - [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/ESPuno-Pi-Zero-RS%E2%80%90485) Interface
 	 - Industry Standard MODBUS
-	 - DMX Lighting Controller Interface
+	 - [DMX](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller Interface
  - PCA9671 GPIO Expander
  	 - Pi Header Inputs and Outputs
  - TMP102 Digital Temperature Sensor
  - Voltage Regulators
 	 - 5V SMPS 600mA
 	 - 3V3 LDO 700mA
- - GROVE Ecosystem 
+ - [GROVE Ecosystem](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Grove-Ecosystem) 
 	 - Standardised I2C Expansion Interface
  - ADC Inputs
 	 - ESP32-C6 12-bit
