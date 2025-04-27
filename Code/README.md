@@ -21,7 +21,7 @@ Set the BOARD to any **ESP32-C6**.  Example board options include:
  1. Adafruit Feather ESP32-C6
  2. DFRobot Beetle ESP32-C6
 
-	 
+Also see this Wiki to find out how to easily setup your code: 	 https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Arduino-IDE
 
 
 ## * **PlatformIO**
@@ -38,7 +38,7 @@ The below example in *platfomio.ini* will configure the ESP32-C6.
 	 - board = esp32-c6-devkitm-1 
 	 - framework = arduino
 
-Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/PlatformIO-Configuration
+Also see this Wiki to find out how to easily setup your code:  https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/PlatformIO-Configuration
 
 ## * **ESPHome**
 
@@ -53,7 +53,7 @@ The below example will configure the ESP32-C6.
 	  - framework: type: esp-idf
 	  - sdkconfig_options: CONFIG_ESPTOOLPY_FLASHSIZE_4MB: y
 
-Also see this list to find out how to easily setup your code: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
+Also see this Wiki to find out how to easily setup your code: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
 
 ## * **Tasmota**
 
@@ -61,13 +61,16 @@ In Tasmota, you can:
 
 	  -  set a template based on ESP32-C6
 
-Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Tasmota
+Also see this Wiki to find out how to easily setup your code:  https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Tasmota
 
 ## * **MicroPython**
 
 To flash, or program, the ESPuno Pi Zero board in [MicroPython](https://micropython.org/download/ESP32_GENERIC_C6/), you will use the the esptool.py program. 
 
 Details can be found [here] (https://docs.espressif.com/projects/esptool/en/latest/esp32c6/)
+
+Also see this Wiki to find out how to easily setup your code:  
+https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/MicroPython
 
 # Flashing Speeds and Power
 
