@@ -18,7 +18,7 @@ ESPuno Pi Zero - Production 3D Render
  - [DMX / DMX512](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller, Analyser and Interface.
  - Industrial applications, Test Systems, Development and MODBUS Sensors, Monitoring, SCADA or PLC's.
 
-**This is being launched April 2025 on KickStarter**   [URL will become active once live.](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero)
+**This has been launched on KickStarter**   [Kickstater](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero)
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
