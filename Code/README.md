@@ -7,10 +7,11 @@ This folder contains Example Source Code and Information to help you develop and
  
 The **ESPuno Pi Zero** is **ESP32-C6** based and the following examples/information should help you get started.
 
-## Example Environments
+# Example Environments
 
   
- - **Arduino IDE**
+
+## - **Arduino IDE**
 
 The Arduino IDE does not auto detect and allows you to manually set the board
 
@@ -23,7 +24,7 @@ Set the BOARD to any ESP32-C6.  Example option includes:
 	 
 
 
- - **PlatformIO**
+## - **PlatformIO**
 
 When using PlatformIO code, the file *platformio.ini* should automatically load required libraries and configure board.   
 
@@ -39,7 +40,7 @@ The below example in *platfomio.ini* will configure the ESP32-C6.
 
 Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/PlatformIO-Configuration
 
- - **ESPHome**
+## - **ESPHome**
 
 In ESPHome you configure the board in the *yaml* code.
 
@@ -52,7 +53,7 @@ The below example will configure the ESP32-C6.
 
 Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
 
- - **Tasmota**
+## - **Tasmota**
 
 In Tasmota, you can:
 
@@ -60,7 +61,7 @@ In Tasmota, you can:
 
 Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Tasmota
 
- - **MicroPython**
+## - **MicroPython**
 
 To flash, or program, the ESPuno Pi Zero board in [MicroPython](https://micropython.org/download/ESP32_GENERIC_C6/), you will use the the esptool.py program. 
 
@@ -73,7 +74,7 @@ Details can be found [here] (https://docs.espressif.com/projects/esptool/en/late
   - The SDK does NOT need external power to flash and will take Power from the USB 5V.
   
 
-## Example Code
+# Example Code
 
 This test code is OPEN SOURCE and formatted for easier viewing.  
 
@@ -81,7 +82,7 @@ Although is is not intended for real world use, it may be freely used, or modifi
 
 It is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
-## **Further Information**
+# **Further Information**
 
 Additional information, and other technical details on this project, maybe found in the related repository pages.
 
