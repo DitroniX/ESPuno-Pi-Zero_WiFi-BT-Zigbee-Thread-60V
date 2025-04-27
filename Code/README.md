@@ -1,20 +1,85 @@
-** ESPuno Pi Zero **
 
-------------
+# ** ESPuno Pi Zero **
 
-This folder contains Example Source Code.
+This folder contains Example Source Code and Information to help you develop and experiment, using the **ESPuno Pi Zero** board.
 
-  The purpose of the test code is to cycle through the various main functions of the board, as shown below, as part of board bring up testing.
+  The purpose of the test code is to cycle through the various main functions of the board, as part of board bring up testing and product learning.
+ 
+The **ESPuno Pi Zero** is **ESP32-C6** based and the following examples/information should help you get started.
 
-  PlatformIO code will automatically load required libraries and configure board.   See platformio.ini for information,
+## Example Environments
 
-  Remember!  If ESP32-C6 based:
-  - Set the BOARD to ESP32-C6 DEV MODULE (or similar).
+  
+ - **Arduino IDE**
+
+The Arduino IDE does not auto detect and allows you to manually set the board
+
+Set the BOARD to any ESP32-C6.  Example option includes:
+	 
+
+ 1. Adafruit Feather ESP32-C6
+ 2. DFRobot Beetle ESP32-C6
+
+	 
+
+
+ - **PlatformIO**
+
+When using PlatformIO code, the file *platformio.ini* should automatically load required libraries and configure board.   
+
+
+
+The below example in *platfomio.ini* will configure the ESP32-C6.
+ 
+
+	 - [env:esp32-c6-devkitm-1] 
+	 - platform = espressif32 
+	 - board = esp32-c6-devkitm-1 
+	 - framework = arduino
+
+Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/PlatformIO-Configuration
+
+ - **ESPHome**
+
+In ESPHome you configure the board in the *yaml* code.
+
+The below example will configure the ESP32-C6.
+
+	  - board: esp32-c6-devkitm-1
+	  - flash_size: 4MB
+	  - framework: type: esp-idf
+	  - sdkconfig_options: CONFIG_ESPTOOLPY_FLASHSIZE_4MB: y
+
+Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
+
+ - **Tasmota**
+
+In Tasmota, you can:
+
+	  -  set a template based on ESP32-C6
+
+Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Tasmota
+
+ - **MicroPython**
+
+To flash, or program, the ESPuno Pi Zero board in [MicroPython](https://micropython.org/download/ESP32_GENERIC_C6/), you will use the the esptool.py program. 
+
+Details can be found [here] (https://docs.espressif.com/projects/esptool/en/latest/esp32c6/)
+
+## Flashing Speeds and Power
+
+  
   - You may set the BAUD rate to 921600 to speed up flashing.
   - The SDK does NOT need external power to flash and will take Power from the USB 5V.
   
-  This test code is OPEN SOURCE and formatted for easier viewing.  Although is is not intended for real world use, it may be freely used, or modified as needed.
-  It is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+## Example Code
+
+This test code is OPEN SOURCE and formatted for easier viewing.  
+
+Although is is not intended for real world use, it may be freely used, or modified as needed to get your project up and running.
+
+It is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 ## **Further Information**
 
@@ -22,7 +87,7 @@ Additional information, and other technical details on this project, maybe found
 
 **Repository Folders**
 
- - **Code** *(Code examples for Arduino  IDE, Raspberry Pi and PlatformIO)*
+ - **Code** *(Code examples for Arduino  IDE, PlatformIO, ESPHome, Tasmota)*
  -  **Datasheets and Information** *(Component Datasheets, Schematics, Board Layouts, Photos, Technical Documentation)*
  - **Certification** *(Related Repository Project or Part, Certification Information)*
 
