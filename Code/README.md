@@ -7,6 +7,9 @@ This folder contains Example Source Code and Information to help you develop and
  
 The **ESPuno Pi Zero** is **ESP32-C6** based and the following examples/information should help you get started.
 
+ESPuno Pi Zero - Pre-Production
+![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
+
 # Example Environments
 
   
