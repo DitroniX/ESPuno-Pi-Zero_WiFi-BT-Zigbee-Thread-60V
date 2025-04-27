@@ -24,7 +24,7 @@ Set the BOARD to any ESP32-C6.  Example option includes:
 	 
 
 
-## - **PlatformIO**
+## * **PlatformIO**
 
 When using PlatformIO code, the file *platformio.ini* should automatically load required libraries and configure board.   
 
@@ -40,7 +40,7 @@ The below example in *platfomio.ini* will configure the ESP32-C6.
 
 Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/PlatformIO-Configuration
 
-## - **ESPHome**
+## * **ESPHome**
 
 In ESPHome you configure the board in the *yaml* code.
 
@@ -53,7 +53,7 @@ The below example will configure the ESP32-C6.
 
 Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
 
-## - **Tasmota**
+## * **Tasmota**
 
 In Tasmota, you can:
 
@@ -61,13 +61,13 @@ In Tasmota, you can:
 
 Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Tasmota
 
-## - **MicroPython**
+## * **MicroPython**
 
 To flash, or program, the ESPuno Pi Zero board in [MicroPython](https://micropython.org/download/ESP32_GENERIC_C6/), you will use the the esptool.py program. 
 
 Details can be found [here] (https://docs.espressif.com/projects/esptool/en/latest/esp32c6/)
 
-## Flashing Speeds and Power
+# Flashing Speeds and Power
 
   
   - You may set the BAUD rate to 921600 to speed up flashing.
