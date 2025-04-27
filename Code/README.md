@@ -11,11 +11,11 @@ The **ESPuno Pi Zero** is **ESP32-C6** based and the following examples/informat
 
   
 
-## - **Arduino IDE**
+## * **Arduino IDE**
 
 The Arduino IDE does not auto detect and allows you to manually set the board
 
-Set the BOARD to any ESP32-C6.  Example option includes:
+Set the BOARD to any **ESP32-C6**.  Example board options include:
 	 
 
  1. Adafruit Feather ESP32-C6
@@ -44,6 +44,8 @@ Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/w
 
 In ESPHome you configure the board in the *yaml* code.
 
+*NB. ESPHome unfortunately for some reason, does not list support for the ESP32-C6 within the code but it does work!*
+
 The below example will configure the ESP32-C6.
 
 	  - board: esp32-c6-devkitm-1
@@ -51,7 +53,7 @@ The below example will configure the ESP32-C6.
 	  - framework: type: esp-idf
 	  - sdkconfig_options: CONFIG_ESPTOOLPY_FLASHSIZE_4MB: y
 
-Also see: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
+Also see this list to find out how to easily setup your code: https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
 
 ## * **Tasmota**
 
