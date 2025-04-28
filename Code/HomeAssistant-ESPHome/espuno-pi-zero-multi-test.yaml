@@ -138,7 +138,7 @@ light:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "gbmMdm0MVj+W4rjAnvjX5S1h6sJN/C/wKWKoJJ/C6FM="
+    key: ""
 
 ota:
   - platform: esphome
