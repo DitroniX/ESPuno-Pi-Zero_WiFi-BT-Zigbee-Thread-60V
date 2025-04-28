@@ -1,0 +1,163 @@
+# See Wiki for info https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/Home-Assistant-and-ESPHome
+# http://espuno-pi-zero.local/
+
+esphome:
+  name: espuno-pi-zero
+  friendly_name: ESPuno Pi Zero
+
+esp32:
+  board: esp32-c6-devkitm-1
+  flash_size: 4MB
+  framework:
+    type: esp-idf
+    sdkconfig_options:
+      CONFIG_ESPTOOLPY_FLASHSIZE_4MB: y                          
+
+# Enable logging
+logger:
+  # level: VERY_VERBOSE
+
+# Configure RS-485
+uart:
+  rx_pin: GPIO4
+  tx_pin: GPIO5
+  baud_rate: 9600  
+
+# Configure I2C
+i2c:
+  id: bus_a  
+  sda: GPIO06
+  scl: GPIO07
+  scan: true
+
+#  * Hex 0x20 (32)         PCA9671 GPIO Expander (Default)
+#  * Hex 0x4A (74)         TMP102 Temperature Sensor IPEM PiHat
+#  * Hex 0x50 (80)         EEPROM ESPuno Pi Zero
+#  * Hex 0x58 (88)         EEPROM ESPuno Pi Zero (Reserved Address)
+#  * Hex 0x7C (124)        PCA9671 GPIO Expander (Reserved Address)     
+
+# Configure PCA9671
+pcf8574:
+  - id: 'PCA9671'
+    # i2c_id: bus_a
+    address: 0x20
+    pcf8575: true
+
+# Configure GPIOs
+switch:
+    # PCA9671 Outputs  
+  - platform: gpio
+    name: "PCA-GP00 (Pi GPIO04)"
+    id: pca_gp00
+    pin:
+      pcf8574: PCA9671
+      number: 0
+      mode:
+        output: true
+      # inverted: true
+  - platform: gpio
+    name: "PCA-GP01 (Pi GPIO17)"
+    id: pca_gp01
+    pin:
+      pcf8574: PCA9671
+      number: 1
+      mode:
+        output: true
+  - platform: gpio
+    name: "PCA-GP02 (Pi GPIO27)"
+    id: pca_gp02
+    pin:
+      pcf8574: PCA9671
+      number: 2
+      mode:
+        output: true
+      # inverted: true
+
+    # ESP32-C6 Outputs       
+  - platform: gpio
+    name: "C6-GPIO15 (Pi GPIO18)"  
+    pin:
+      number: GPIO15 
+      mode: output
+    id: Output_GP15
+    # inverted: true
+
+    # ESP32-C6 Inputs      
+  - platform: gpio
+    name: "C6-GPIO09 (User/PGM)"    
+    pin:
+      number: GPIO09 
+      mode: INPUT 
+    id: Input_GP09
+
+  # Heatbeat the GPIOLED LED on GP15 (PWM) AND the RGB LED
+interval:
+  - interval: 1s
+    then:
+    - switch.toggle: Output_GP15
+    # - light.toggle: led_rgb
+ 
+# TMP102 Temperature Sensor
+sensor:
+  - platform: tmp102
+    name: "Temperature"
+    update_interval: 60s
+    address: 0x4A    
+
+light:
+  - platform: esp32_rmt_led_strip
+    id: led_rgb
+    rgb_order: RGB
+    pin: GPIO08
+    num_leds: 1
+    chipset: ws2812
+    name: "RGB LED"
+
+    effects:
+      - pulse:
+          name: "Slow Pulse Dim"
+          transition_length: 2s  
+          update_interval: 2s       
+          min_brightness: 0%
+          max_brightness: 25%            
+      
+      - pulse:
+          name: "Slow Pulse Bright"
+          transition_length: 1s  
+          update_interval: 2s       
+          min_brightness: 0%
+          max_brightness: 100%      
+
+      - pulse:
+          name: "Fast Pulse"
+          transition_length: 0.5s
+          update_interval: 0.5s
+          min_brightness: 0%
+          max_brightness: 100%
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "gbmMdm0MVj+W4rjAnvjX5S1h6sJN/C/wKWKoJJ/C6FM="
+
+ota:
+  - platform: esphome
+    password: ""
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # To set a Static IP Address rather than one from your DHCP Server, You can repurpose the below as needed and then uncomment [CTRL /].
+  # manual_ip:
+  #   static_ip: 192.168.1.150
+  #   gateway: 192.168.1.1
+  #   subnet: 255.255.255.0
+  #   dns1: 192.168.1.1  
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Espuno-Pi-Zero Fallback Hotspot"
+    password: ""
+
+captive_portal:

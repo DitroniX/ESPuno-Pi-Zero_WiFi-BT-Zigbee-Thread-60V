@@ -1,0 +1,34 @@
+
+The hexadecimal number 0x58 is the standard I2C address for the P24C64C EEPROM device. This means that when communicating with an I2C peripheral, you should send the address 0x58 to access the P24C64C chip
+
+ESPuno Pi Zero SDK Board (Basic)
+
+Scanning I2C Bus for Devices for Auto Configuration ...
+ I2C Possible Device(s) found at Address:
+ * Hex 0x20 (32)         PCA9671 GPIO Expander (Default)
+ * Hex 0x48 (72)         TMP102 Temperature Sensor Espuno Pi Zero
+ * Hex 0x50 (80)         EEPROM ESPuno Pi Zero
+ * Hex 0x58 (88)         EEPROM ESPuno Pi Zero (Reserved Address)
+ * Hex 0x7C (124)        PCA9671 GPIO Expander (Reserved Address)
+ I2C Bus Scan Complete
+
+
+
+
+ESPuno Pi Zero SDK Board & IPEM PIHat, with an OLED Display Connected
+
+Scanning I2C Bus for Devices for Auto Configuration ...
+ I2C Possible Device(s) found at Address:
+ * Hex 0x14 (20)         PCA9671 GPIO Expander
+ * Hex 0x20 (32)         PCA9671 GPIO Expander (Default)
+ * Hex 0x3C (60)         OLED
+ * Hex 0x48 (72)         TMP102 Temperature Sensor Espuno Pi Zero
+ * Hex 0x4A (74)         TMP102 Temperature Sensor IPEM PiHat
+ * Hex 0x4B (75)         ADS1115 16-bit ADC IPEM PiHat
+ * Hex 0x50 (80)         EEPROM ESPuno Pi Zero
+ * Hex 0x55 (85)         EEPROM IPEM PiHat
+ * Hex 0x58 (88)         EEPROM ESPuno Pi Zero (Reserved Address)
+ * Hex 0x60 (96)         MCP4728 12-bit DAC IPEM PiHat
+ * Hex 0x68 (104)        DS3231 RTC IPEM PiHat
+ * Hex 0x7C (124)        PCA9671 GPIO Expander (Reserved Address)
+ I2C Bus Scan Complete
