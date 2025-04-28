@@ -31,9 +31,9 @@ i2c:
   scan: true
 
 #  * Hex 0x20 (32)         PCA9671 GPIO Expander (Default)
-#  * Hex 0x4A (74)         TMP102 Temperature Sensor IPEM PiHat
-#  * Hex 0x50 (80)         EEPROM ESPuno Pi Zero
-#  * Hex 0x58 (88)         EEPROM ESPuno Pi Zero (Reserved Address)
+#  * Hex 0x4A (74)         TMP102 Temperature Sensor
+#  * Hex 0x50 (80)         EEPROM 
+#  * Hex 0x58 (88)         EEPROM (Reserved Address)
 #  * Hex 0x7C (124)        PCA9671 GPIO Expander (Reserved Address)     
 
 # Configure PCA9671
