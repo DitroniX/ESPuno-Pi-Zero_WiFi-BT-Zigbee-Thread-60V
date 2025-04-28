@@ -75,9 +75,9 @@ ESPuno Pi Zero - Overview
  - [RS-485](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/ESPuno-Pi-Zero-RS%E2%80%90485) Interface
 	 - Industry Standard MODBUS
 	 - [DMX](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller Interface
- - PCA9671 GPIO Expander
+ - [PCA9671](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/PCA9671-GPIO-Expander) GPIO Expander
  	 - Pi Header Inputs and Outputs
- - TMP102 Digital Temperature Sensor
+ - [TMP102](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/TMP102-Temperature-Sensor) Digital Temperature Sensor
  - Voltage Regulators
 	 - 5V SMPS 600mA
 	 - 3V3 LDO 700mA
@@ -97,15 +97,15 @@ ESPuno Pi Zero - Overview
 
 ![ESPuno Pi Zero](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Features%20View.png)
 
-## Differences between the 2 different antenna types on the ESPuno Pi Zero
+## Differences between the 2 different antenna types on the ESPuno Pi Zero?
 
-Both versions of the **ESPuno Pi Zero** board are functionally exactly the same. However, depending on your eventual application, you require different wireless functionality and ranges.
+Both versions of the board are functionally exactly the same. However, depending on your eventual application, you require different wireless functionality and ranges.
 
-**ESPuno Pi Zero (Standard PCB Antenna)**
+### ESPuno Pi Zero (Standard PCB Antenna)
 
 This is ideal for local projects that are for example, in the home or office. All relatively local the the wireless access point or router.
 
-**ESPuno Pi Zero (U.FL Antenna)**
+### ESPuno Pi Zero (U.FL Antenna)
 
 This variant is intended for projects where you may put the **ESPuno Pi Zero** board in a metal enclosure, or need greater range to the wireless access point or router.
 
