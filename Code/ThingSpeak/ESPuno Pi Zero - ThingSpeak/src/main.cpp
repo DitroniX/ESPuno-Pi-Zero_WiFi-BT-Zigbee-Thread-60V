@@ -74,6 +74,9 @@ float TemperatureF;        // TMP102 PCB Temperature F
 float TemperatureAmbientC; // TMP102 Ambient Temperature C
 float TemperatureAmbientF; // TMP102 Ambient Temperature F
 
+// Temperature Sensor Fudge Factor
+float TemperatureFudgeFactorC = 5.5; // TMP102 PCB Temperature to Ambient Temperature C - Fudge Factor
+
 // RGB LED
 #define LED_PIN 8
 #define NUM_LEDS 1
@@ -282,8 +285,8 @@ void PublishThingSpeakValues()
   {
     // Examples to Set the Fields with Values [fields 1-8 available, variable, Decimal Places]
     // Just uncomment the fields you wish to publish from this board.
-    SetThingSpeakField(1, TemperatureC, 1);
-    SetThingSpeakField(2, TemperatureAmbientC, 1);
+    // SetThingSpeakField(1, TemperatureC, 1);
+    // SetThingSpeakField(2, TemperatureAmbientC, 1);
     // SetThingSpeakField(3, Placeholder, 1);
     // SetThingSpeakField(4, Placeholder), 2;
     // SetThingSpeakField(5, Placeholder, 1);
@@ -333,7 +336,7 @@ void ReadTemperatureSensor()
   Serial.println("TMP102 PCB Temperature: " + String(TemperatureF) + " °F\n");
 
   //  Calculated Approximate Ambient Based on Differential
-  TemperatureAmbientC = TemperatureC - 10;
+  TemperatureAmbientC = TemperatureC - TemperatureFudgeFactorC;
   TemperatureAmbientF = (TemperatureAmbientC * 9 / 5) + 32;
 
   Serial.println("TMP102 Calculated Ambient Temperature: " + String(TemperatureAmbientC) + " °C");
