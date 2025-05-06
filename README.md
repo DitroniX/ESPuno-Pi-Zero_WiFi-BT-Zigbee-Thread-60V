@@ -1,6 +1,6 @@
 # ESPuno Pi Zero
 
-## New for February 2025!  [Launched on Kickstarter in April](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
+## New for 2025!  [LIVE on Kickstarter in April/May](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
@@ -35,6 +35,10 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-05-02 - ThingSpeak Example Test Channel added [thingspeak.mathworks.com/channels/2943970](https://thingspeak.mathworks.com/channels/2943970)
+-   25-05-02 - Various code examples uploaded and Wiki updates.  Both are work in progress.
+-   25-04-29 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4373474) Great momentum and 150% funded already
+-   25-04-23 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4366165) Warm and Welcome Response in the First Few Days
 -   25-04-15 - Launched on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
 -   25-04-12 - New [YouTube video](https://www.youtube.com/watch?v=wMoDYLhX5uE) produced and also the ESPuno Pi Zero project submitted to the dragons in the KickStarter world.
 -   25-04-05 - Proto boards tested and looking great!.  Production board schematic and layout changes finalised. Added [DMX](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller capability.  Preparing for pre-production and KickStarter Launch in April.
