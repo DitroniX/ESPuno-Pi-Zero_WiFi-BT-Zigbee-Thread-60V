@@ -35,6 +35,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-05-02 - ThingSpeak Exaample Test Channel added [thingspeak.mathworks.com/channels/2943970](https://thingspeak.mathworks.com/channels/2943970)
 -   25-05-02 - Various code examples uploaded and Wiki updates.  Both are work in progress.
 -   25-04-29 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4373474) Great momentum and 150% funded already
 -   25-04-23 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4366165) Warm and Welcome Response in the First Few Days
