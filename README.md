@@ -4,6 +4,8 @@
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
+[**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V?tab=readme-ov-file#updates)
+
 ESPuno Pi Zero - Pre-Production
 ![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
 
@@ -35,6 +37,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-05-14 - Fantastic, with your help and support, we have reached over 300% of target on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero) Thank you.  Just a few hours left, please support this project.
 -   25-05-02 - ThingSpeak Example Test Channel added [thingspeak.mathworks.com/channels/2943970](https://thingspeak.mathworks.com/channels/2943970)
 -   25-05-02 - Various code examples uploaded and Wiki updates.  Both are work in progress.
 -   25-04-29 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4373474) Great momentum and 150% funded already
