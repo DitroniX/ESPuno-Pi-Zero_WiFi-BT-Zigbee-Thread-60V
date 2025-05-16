@@ -1,7 +1,13 @@
 /*
   Dave Williams, DitroniX 2019-2025 (ditronix.net)
 
-  Example Code, to demonstrate and test the ESPuno Pi Zero, PCA9671 Random GPIO Test
+  Example Code, to demonstrate and test the ESPuno Pi Zero, TWO UART Ports Basic Test.   0 as Terminal UART and 1 as RS485 UART
+
+  NB. To test the RS-485:
+  * Simply connect another RS-485 device
+  * Wiring A to A and B to B
+    * Monitor in computer terminal if using USB-RS485
+    * Use the 'RS485 RX' Code Example on another ESPuno Pi Zero
 
   Further information, details and examples can be found on our website and also GitHub wiki pages:
   * ditronix.net
@@ -20,44 +26,23 @@
 */
 
 // Libraries
-#include "PCA9671.h"  // https://github.com/RobTillaart/PCA9671
 
 // **************** USER VARIABLES / DEFINES / STATIC / STRUCTURES / CONSTANTS ****************
 
-#define PCA_Address 0x20  // Default I2C address with no switches or solder pads set
+// Constants
 
-PCA9671 PCA(PCA_Address);
+#include <Wire.h>
 
-// Define I2C (Expansion Port)
-#define I2C_SDA 6
-#define I2C_SCL 7
+// Hardware Serial 0 pins
+#define RXD0 17
+#define TXD0 16
 
-uint16_t Pin;
+// Hardware Serial 1 pins - RS485
+#define RXLP 4
+#define TXLP 5
+#define ENLP 23  // RS485 UART Enable
 
 // **************** FUNCTIONS AND ROUTINES ****************
-
-// Force Raw Software Reset
-void Force_Raw_Reset() {
-  Wire.beginTransmission(PCA_Address);
-  Wire.write(0x00);
-  Wire.write(0x06);
-  Wire.endTransmission();
-}
-
-// Random GPIO States
-void TestGPIO() {
-
-  // // Write Pin States Sequentially
-  for (Pin = 0; Pin < 16; Pin++) {
-    PCA.toggle(Pin);
-    delay(100);
-  }
-
-  // Random GPIO States
-  Pin = random(16);
-  PCA.toggle(Pin);
-  delay(100);
-}
 
 // **************** SETUP ****************
 void setup() {
@@ -65,30 +50,31 @@ void setup() {
   // Stabalise
   delay(250);
 
-  // Initialise UART
-  Serial.begin(115200, SERIAL_8N1);  //115200
+  // Initialise UART 0 - USB COM Port
+  Serial.begin(115200, SERIAL_8N1, RXD0, TXD0);  // U0
   while (!Serial)
     ;
-  Serial.println("");
+  Serial.println("UART 0 Opened (USB COM Port)");
 
-  Serial.println(__FILE__);
-  Serial.print("PCA9671_LIB_VERSION:\t");
-  Serial.println(PCA9671_LIB_VERSION);
-  Serial.println();
+  // Initialise UART 1 - RS485 Port
+  Serial1.begin(9600, SERIAL_8N1, RXLP, TXLP);  //LP
+  while (!Serial)
+    ;
+  Serial.println("UART 1 Opened (RS485 Port)");
 
-  // Initialize I2C
-  Wire.begin(I2C_SDA, I2C_SCL);
+  // Initialise RS485 UART Enable on GP23
+  pinMode(ENLP, OUTPUT);
 
-  Serial.println("ESPuno Zero Configured...");
-
-  // Optional Setting as an example
-  Force_Raw_Reset();
-
-  PCA.begin();
+  Serial.println("Running RS485 TX Test");
 }
 
 // **************** LOOP ****************
 void loop() {
 
-  TestGPIO();
+  // Force RS485 UART Driver Enable and Receiver is Disabled
+  digitalWrite(ENLP, HIGH);
+
+  Serial1.write("Hello World - Test\n");
+
+  delay(2000);
 }

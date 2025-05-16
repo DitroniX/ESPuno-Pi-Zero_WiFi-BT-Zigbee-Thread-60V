@@ -36,11 +36,10 @@ int ADC_Raw;
 #define ADC1_2_IN 2  // Pi Header GPIO6 (Pin 31)
 #define ADC1_3_IN 3  // Pi Header GPIO12 (Pin 32)
 
-  // **************** FUNCTIONS AND ROUTINES ****************
+// **************** FUNCTIONS AND ROUTINES ****************
 
-  // **************** SETUP ****************
-  void
-  setup() {
+// **************** SETUP ****************
+void setup() {
 
   // Stabalise
   delay(250);
@@ -98,7 +97,7 @@ void loop() {
   // Zero Accumulator
   ADC_Raw = 0;
 
-  // Read ADC Input 100 times
+  // Read ADC1_2 Input 100 times
   for (int i = 0; i < 100; i++) {  // 100 Readings
     ADC_Raw = ADC_Raw + analogReadMilliVolts(ADC1_2_IN);
   }
@@ -106,6 +105,21 @@ void loop() {
   // Divide Accumuator by Number of Readings
   ADC_Raw = ADC_Raw / 100;
   Serial.printf("ADC1_2 GPIO6 (Pin 31) Analog Averaged mV Value = %d\n", ADC_Raw);
+
+  // Zero Accumulator
+  ADC_Raw = 0;
+
+  // Read ADC1_3 Input 100 times
+  for (int i = 0; i < 100; i++) {  // 100 Readings
+    ADC_Raw = ADC_Raw + analogReadMilliVolts(ADC1_3_IN);
+  }
+
+  // Divide Accumuator by Number of Readings
+  ADC_Raw = ADC_Raw / 100;
+  Serial.printf("ADC1_3 GPIO12 (Pin 32) Analog Averaged mV Value = %d\n", ADC_Raw);
+
+
+   Serial.println("\n----------------------------------------------------");
 
   // Loop Delay
   delay(1000);

@@ -1,7 +1,9 @@
 /*
   Dave Williams, DitroniX 2019-2025 (ditronix.net)
 
-  Example Code, to demonstrate and test the ESPuno Pi Zero, PCA9671 Random GPIO Test
+  Example Code, to demonstrate and test the ESPuno Pi Zero, RS485 RXD and TXD GPIO Basic Test
+
+  NB.  This test will alternate +3V3 from A to GND, to B to GND.  Proving the RS485 UART and also GPIO Driver is working.  You could then use the RS485 port as an additional GPIO is required.
 
   Further information, details and examples can be found on our website and also GitHub wiki pages:
   * ditronix.net
@@ -20,75 +22,42 @@
 */
 
 // Libraries
-#include "PCA9671.h"  // https://github.com/RobTillaart/PCA9671
 
 // **************** USER VARIABLES / DEFINES / STATIC / STRUCTURES / CONSTANTS ****************
 
-#define PCA_Address 0x20  // Default I2C address with no switches or solder pads set
+// Hardware Serial 0 GPIO Pins
+#define RXD0 17
+#define TXD0 16
 
-PCA9671 PCA(PCA_Address);
-
-// Define I2C (Expansion Port)
-#define I2C_SDA 6
-#define I2C_SCL 7
-
-uint16_t Pin;
+// **************** OUTPUTS ****************
+#define RS485_TXD 5  // RS485 TXD (GP5)
 
 // **************** FUNCTIONS AND ROUTINES ****************
 
-// Force Raw Software Reset
-void Force_Raw_Reset() {
-  Wire.beginTransmission(PCA_Address);
-  Wire.write(0x00);
-  Wire.write(0x06);
-  Wire.endTransmission();
-}
-
-// Random GPIO States
-void TestGPIO() {
-
-  // // Write Pin States Sequentially
-  for (Pin = 0; Pin < 16; Pin++) {
-    PCA.toggle(Pin);
-    delay(100);
-  }
-
-  // Random GPIO States
-  Pin = random(16);
-  PCA.toggle(Pin);
-  delay(100);
-}
-
 // **************** SETUP ****************
 void setup() {
-
   // Stabalise
   delay(250);
 
   // Initialise UART
-  Serial.begin(115200, SERIAL_8N1);  //115200
+  Serial.begin(115200, SERIAL_8N1, RXD0, TXD0);  // U0
   while (!Serial)
     ;
   Serial.println("");
 
-  Serial.println(__FILE__);
-  Serial.print("PCA9671_LIB_VERSION:\t");
-  Serial.println(PCA9671_LIB_VERSION);
-  Serial.println();
+  // Initialise GP5
+  pinMode(RS485_TXD, OUTPUT);
 
-  // Initialize I2C
-  Wire.begin(I2C_SDA, I2C_SCL);
-
-  Serial.println("ESPuno Zero Configured...");
-
-  // Optional Setting as an example
-  Force_Raw_Reset();
-
-  PCA.begin();
+  Serial.println("ESPuno Pi Zero - Example Code");
 }
 
 // **************** LOOP ****************
 void loop() {
 
-  TestGPIO();
+  // Cycle RED LED
+  digitalWrite(RS485_TXD, LOW);
+  delay(1000);
+  digitalWrite(RS485_TXD, HIGH);
+  delay(1000);
 }
+//
