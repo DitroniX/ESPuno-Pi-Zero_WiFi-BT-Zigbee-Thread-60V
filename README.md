@@ -1,6 +1,6 @@
 # ESPuno Pi Zero
 
-## New for 2025!  [LIVE on Kickstarter in April/May](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
+## New for 2025!  [As seen on Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
@@ -37,6 +37,8 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-05-17 - Fulfillment totals and BOM, for all rewards, being worked on over the weekend
+-   25-05-16 - Kickstater campaign sucessfully completed, so thank all of you for your support
 -   25-05-14 - Fantastic, with your help and support, we have reached over 300% of target on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero) Thank you.  Just a few hours left, please support this project.
 -   25-05-02 - ThingSpeak Example Test Channel added [thingspeak.mathworks.com/channels/2943970](https://thingspeak.mathworks.com/channels/2943970)
 -   25-05-02 - Various code examples uploaded and Wiki updates.  Both are work in progress.
