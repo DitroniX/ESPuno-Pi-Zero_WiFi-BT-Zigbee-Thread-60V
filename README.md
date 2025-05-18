@@ -119,7 +119,7 @@ This is ideal for local projects that are for example, in the home or office. Al
 
 This variant is intended for projects where you may put the **ESPuno Pi Zero** board in a metal enclosure, or need greater range to the wireless access point or router.
 
-The small pigtail U.FL/IPEX to SMA cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
+The small pigtail U.FL IPEX/MHF4 to SMA Female cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
 
 
 ## Software Development
