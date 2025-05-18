@@ -9,6 +9,10 @@
 ESPuno Pi Zero - Pre-Production
 ![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
 
+ESPuno Pi Zero - Pre-Production (final board will be black)
+![ESPuno Pi Zero - U.FL Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20U.FL%20-%20Preproduction.jpg)
+
+
 **ESPuno Pi Zero** is ideal for:
 
  - Educational and Classroom projects. 
@@ -37,6 +41,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-05-18 - ESPuno Pi Zero - U.FL variant, Pre-Production, tested
 -   25-05-18 - Kickstarter backer survey submitted prior to shipping addresses and BOM finalising
 -   25-05-17 - Fulfillment totals and BOM, for all rewards, being worked on over the weekend
 -   25-05-16 - Kickstater campaign sucessfully completed, so thank all of you for your support
