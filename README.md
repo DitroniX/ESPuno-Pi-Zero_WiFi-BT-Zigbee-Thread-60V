@@ -37,7 +37,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
--   25-05-18 - Kickstarter backer survey submitted prior to BOM finalising
+-   25-05-18 - Kickstarter backer survey submitted prior to shipping addresses and BOM finalising
 -   25-05-17 - Fulfillment totals and BOM, for all rewards, being worked on over the weekend
 -   25-05-16 - Kickstater campaign sucessfully completed, so thank all of you for your support
 -   25-05-14 - Fantastic, with your help and support, we have reached over 300% of target on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero) Thank you.  Just a few hours left, please support this project.
