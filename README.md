@@ -1,6 +1,6 @@
 # ESPuno Pi Zero
 
-## New for 2025!  [LIVE on Kickstarter in April/May](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
+## New for 2025!  [As seen on Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
@@ -8,6 +8,10 @@
 
 ESPuno Pi Zero - Pre-Production
 ![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
+
+ESPuno Pi Zero - Pre-Production (final board will be black)  Note: The antenna RF connector is an IPEX/MHF4, smaller than a standard IPEX.
+![ESPuno Pi Zero - U.FL Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20U.FL%20-%20Preproduction.jpg)
+
 
 **ESPuno Pi Zero** is ideal for:
 
@@ -37,6 +41,10 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-05-18 - ESPuno Pi Zero - U.FL variant, Pre-Production, tested
+-   25-05-18 - Kickstarter backer survey submitted prior to shipping addresses and BOM finalising
+-   25-05-17 - Fulfillment totals and BOM, for all rewards, being worked on over the weekend
+-   25-05-16 - Kickstater campaign sucessfully completed, so thank all of you for your support
 -   25-05-14 - Fantastic, with your help and support, we have reached over 300% of target on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero) Thank you.  Just a few hours left, please support this project.
 -   25-05-02 - ThingSpeak Example Test Channel added [thingspeak.mathworks.com/channels/2943970](https://thingspeak.mathworks.com/channels/2943970)
 -   25-05-02 - Various code examples uploaded and Wiki updates.  Both are work in progress.
@@ -116,7 +124,7 @@ This is ideal for local projects that are for example, in the home or office. Al
 
 This variant is intended for projects where you may put the **ESPuno Pi Zero** board in a metal enclosure, or need greater range to the wireless access point or router.
 
-The small pigtail U.FL/IPEX to SMA cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
+The small pigtail U.FL IPEX/MHF4 to SMA Female cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
 
 
 ## Software Development
