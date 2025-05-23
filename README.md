@@ -6,6 +6,8 @@
 
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V?tab=readme-ov-file#updates)
 
+[**Sign up to our Newsletter - Click Here**](https://ditronix.net/newsletter)
+
 ESPuno Pi Zero - Pre-Production
 ![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
 
@@ -41,23 +43,27 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
--   25-05-18 - ESPuno Pi Zero - U.FL variant, Pre-Production, tested
--   25-05-18 - Kickstarter backer survey submitted prior to shipping addresses and BOM finalising
--   25-05-17 - Fulfillment totals and BOM, for all rewards, being worked on over the weekend
--   25-05-16 - Kickstater campaign sucessfully completed, so thank all of you for your support
+-   25-05-22 - Feedback from the Backer Survey almost complete and is all so positive - thank you.  This project has built such an unexpected strong following all over the World.  An exciting follow up project is already in outline design - watch this space!.  [*Sign up to our Newsletter*](https://ditronix.net/newsletter)
+-   25-05-22 - BOM parts (Bill of Materials), ordered for full production of both variants, plus all the reward add-ons.
+-   25-05-22 - ESPuno Pi Zero - U.FL variant finalised.  Both layout design variants are now ready for production.
+-   25-05-18 - Further code examples and WIki updates.
+-   25-05-18 - ESPuno Pi Zero - U.FL variant, Pre-Production, tested.
+-   25-05-18 - Kickstarter backer survey submitted prior to shipping addresses and BOM finalising.
+-   25-05-17 - Fulfillment totals and BOM, for all rewards, being worked on over the weekend.
+-   25-05-16 - Kickstater campaign sucessfully completed, so thank all of you for your support.
 -   25-05-14 - Fantastic, with your help and support, we have reached over 300% of target on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero) Thank you.  Just a few hours left, please support this project.
 -   25-05-02 - ThingSpeak Example Test Channel added [thingspeak.mathworks.com/channels/2943970](https://thingspeak.mathworks.com/channels/2943970)
 -   25-05-02 - Various code examples uploaded and Wiki updates.  Both are work in progress.
--   25-04-29 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4373474) Great momentum and 150% funded already
--   25-04-23 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4366165) Warm and Welcome Response in the First Few Days
+-   25-04-29 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4373474) Great momentum and 150% funded already.
+-   25-04-23 - [Update](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/posts/4366165) Warm and Welcome Response in the First Few Days.
 -   25-04-15 - Launched on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
 -   25-04-12 - New [YouTube video](https://www.youtube.com/watch?v=wMoDYLhX5uE) produced and also the ESPuno Pi Zero project submitted to the dragons in the KickStarter world.
 -   25-04-05 - Proto boards tested and looking great!.  Production board schematic and layout changes finalised. Added [DMX](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/DMX-Lighting-Control) Lighting Controller capability.  Preparing for pre-production and KickStarter Launch in April.
--   25-03-23 - Boards now being tested in preparation for KickStarter Launch in April	
--   25-02-27 - Prototype board being fabricated / SMT populated
--   25-02-22 - Prototype schematic and board layout 
--   25-02-15 - BOM and Components
--   25-02-08 - Prototype feature list finalised
+-   25-03-23 - Boards now being tested in preparation for KickStarter Launch in April.
+-   25-02-27 - Prototype board being fabricated / SMT populated.
+-   25-02-22 - Prototype schematic and board layout. 
+-   25-02-15 - BOM and Components.
+-   25-02-08 - Prototype feature list finalised.
 
 
 ## ESPuno Pi Zero - Overview
