@@ -43,10 +43,11 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-06-01 - All BOM parts are now in place for both variants, plus other Kickstarter reward add-ons BOMS.  Production of all boards being ordered tomorrow (Monday).
 -   25-05-22 - Feedback from the Backer Survey almost complete and is all so positive - thank you.  This project has built such an unexpected strong following all over the World.  An exciting follow up project is already in outline design - watch this space!.  [*Sign up to our Newsletter*](https://ditronix.net/newsletter)
 -   25-05-22 - BOM parts (Bill of Materials), ordered for full production of both variants, plus all the reward add-ons.
 -   25-05-22 - ESPuno Pi Zero - U.FL variant finalised.  Both layout design variants are now ready for production.
--   25-05-18 - Further code examples and WIki updates.
+-   25-05-18 - Further code examples and Wiki updates.
 -   25-05-18 - ESPuno Pi Zero - U.FL variant, Pre-Production, tested.
 -   25-05-18 - Kickstarter backer survey submitted prior to shipping addresses and BOM finalising.
 -   25-05-17 - Fulfillment totals and BOM, for all rewards, being worked on over the weekend.
