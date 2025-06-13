@@ -43,6 +43,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-06-03 - In SMT production.  Upon completion, the boards will have sockets added, tested and ready for shipping
 -   25-06-01 - All BOM parts are now in place for both variants, plus other Kickstarter reward add-ons BOMS.  Production of all boards being ordered tomorrow (Monday).
 -   25-05-22 - Feedback from the Backer Survey almost complete and is all so positive - thank you.  This project has built such an unexpected strong following all over the World.  An exciting follow up project is already in outline design - watch this space!.  [*Sign up to our Newsletter*](https://ditronix.net/newsletter)
 -   25-05-22 - BOM parts (Bill of Materials), ordered for full production of both variants, plus all the reward add-ons.
