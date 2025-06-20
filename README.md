@@ -1,6 +1,6 @@
 # ESPuno Pi Zero
 
-## New for 2025!  [As seen on Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)  Now on [EBay](https://www.ebay.co.uk/sch/i.html?_nkw=espuno+Pi+Zero)
+## New for 2025!  [As seen on Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)  Now on [EBay](https://www.ebay.co.uk/sch/i.html?_nkw=ESPuno+Pi+Zero)
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
@@ -43,7 +43,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
--   25-06-20 - Both Variants of ESPuno Pi Zero are now available on [EBay](https://www.ebay.co.uk/sch/i.html?_nkw=espuno+Pi+Zero) for purchase. 
+-   25-06-20 - Both Variants of ESPuno Pi Zero are now available on [EBay](https://www.ebay.co.uk/sch/i.html?_nkw=ESPuno+Pi+Zero) for purchase. 
 -   25-06-20 - Kickstarter Backer Rewards Complete.  Many thanks to all for your support on this interesting project.
 -   25-06-15 - Fabrication Production and Electrical Test Complete.  Awaiting delivery for final bring-up test.  They will then be ready for shipping out to customers.
 -   25-06-03 - In SMT production.  Upon completion, the boards will have sockets added, tested and ready for shipping
