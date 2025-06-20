@@ -11,7 +11,7 @@
 ESPuno Pi Zero - Pre-Production
 ![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
 
-ESPuno Pi Zero - The antenna RF connector is an IPEX/MHF4, smaller than a standard IPEX.
+ESPuno Pi Zero - Production - The antenna RF connector is an IPEX/MHF4, smaller than a standard IPEX.
 ![ESPuno Pi Zero - U.FL MHF4](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20MHF4.jpg)
 
 
