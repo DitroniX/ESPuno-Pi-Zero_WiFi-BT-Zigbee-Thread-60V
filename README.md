@@ -11,8 +11,8 @@
 ESPuno Pi Zero - Pre-Production
 ![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
 
-ESPuno Pi Zero - Production - The antenna RF connector is an IPEX/MHF4, smaller than a standard IPEX.
-![ESPuno Pi Zero - U.FL MHF4](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20MHF4.jpg)
+ESPuno Pi Zero - Production - The antenna RF connector is an IPEX/3, smaller than a standard IPEX.
+![ESPuno Pi Zero - U.FL MHF3](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20MHF4.jpg)
 
 
 **ESPuno Pi Zero** is ideal for:
@@ -132,11 +132,11 @@ Both versions of the board are functionally exactly the same. However, depending
 
 This is ideal for local projects that are for example, in the home or office. All relatively local the the wireless access point or router.
 
-### ESPuno Pi Zero (U.FL Antenna)
+### ESPuno Pi Zero (U.FL MHF3 Antenna)
 
 This variant is intended for projects where you may put the **ESPuno Pi Zero** board in a metal enclosure, or need greater range to the wireless access point or router.
 
-The small pigtail U.FL IPEX/MHF4 to SMA Female cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
+The small pigtail U.FL IPEX/MHF3 to SMA Female cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
 
 
 ## Software Development
