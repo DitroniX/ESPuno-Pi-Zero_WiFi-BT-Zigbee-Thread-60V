@@ -43,6 +43,7 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-06-26 - Updates on U.FL MHFx Version. Initial information was for MHF4.  However, it appears that IPEM MHF3 is required.   Even though MHF4 does fit, MHF3 is very slightly larger.  Test will take place to confirm.
 -   25-06-20 - Both Variants of ESPuno Pi Zero are now available on [EBay](https://www.ebay.co.uk/sch/i.html?_nkw=ESPuno+Pi+Zero) for purchase. 
 -   25-06-20 - Kickstarter Backer Rewards Complete.  Many thanks to all for your support on this interesting project.
 -   25-06-15 - Fabrication Production and Electrical Test Complete.  Awaiting delivery for final bring-up test.  They will then be ready for shipping out to customers.
