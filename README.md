@@ -1,6 +1,6 @@
 # ESPuno Pi Zero
 
-## New for 2025!  [As seen on Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)
+## New for 2025!  [As seen on Kickstarter](https://www.kickstarter.com/projects/ditronix/espuno-pi-zero/)  Now on [EBay](https://www.ebay.co.uk/sch/i.html?_nkw=ESPuno+Pi+Zero)
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
@@ -11,8 +11,8 @@
 ESPuno Pi Zero - Pre-Production
 ![ESPuno Pi Zero - Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20Production%20-%20Angled.jpg)
 
-ESPuno Pi Zero - Pre-Production (final board will be black)  Note: The antenna RF connector is an IPEX/MHF4, smaller than a standard IPEX.
-![ESPuno Pi Zero - U.FL Pre-Production](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20U.FL%20-%20Preproduction.jpg)
+ESPuno Pi Zero - Production - The antenna RF connector is an IPEX/3, smaller than a standard IPEX.
+![ESPuno Pi Zero - U.FL MHF3](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/ESPuno%20Pi%20Zero%20-%20MHF4.jpg)
 
 
 **ESPuno Pi Zero** is ideal for:
@@ -43,6 +43,10 @@ The Raspberry Pi GPIO's are controlled and driven from the ESP32-C6 and GPIO Exp
 
 ## Updates
 
+-   25-06-27 - To confirm, the ESP32-C6-MINI-1U does used IPEX MHF3 RF Connector.
+-   25-06-26 - Updates on U.FL MHFx Version. Initial information was for MHF4.  However, it appears that IPEM MHF3 is required.   Even though MHF4 does fit, MHF3 is very slightly larger.  Test will take place to confirm.
+-   25-06-20 - Both Variants of ESPuno Pi Zero are now available on [EBay](https://www.ebay.co.uk/sch/i.html?_nkw=ESPuno+Pi+Zero) for purchase. 
+-   25-06-20 - Kickstarter Backer Rewards Complete.  Many thanks to all for your support on this interesting project.
 -   25-06-15 - Fabrication Production and Electrical Test Complete.  Awaiting delivery for final bring-up test.  They will then be ready for shipping out to customers.
 -   25-06-03 - In SMT production.  Upon completion, the boards will have sockets added, tested and ready for shipping
 -   25-06-01 - All BOM parts are now in place for both variants, plus other Kickstarter reward add-ons BOMS.  Production of all boards being ordered tomorrow (Monday).
@@ -129,11 +133,11 @@ Both versions of the board are functionally exactly the same. However, depending
 
 This is ideal for local projects that are for example, in the home or office. All relatively local the the wireless access point or router.
 
-### ESPuno Pi Zero (U.FL Antenna)
+### ESPuno Pi Zero (U.FL MHF3 Antenna)
 
 This variant is intended for projects where you may put the **ESPuno Pi Zero** board in a metal enclosure, or need greater range to the wireless access point or router.
 
-The small pigtail U.FL IPEX/MHF4 to SMA Female cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
+The small pigtail U.FL IPEX/MHF3 to SMA Female cable can be chassis, or enclosure, mounted, so allowing you to attach the small antenna away from the board, or connect low loss coax to another external antenna.
 
 
 ## Software Development
