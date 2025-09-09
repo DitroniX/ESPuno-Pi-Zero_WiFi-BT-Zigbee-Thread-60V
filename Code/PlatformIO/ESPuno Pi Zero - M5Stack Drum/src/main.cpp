@@ -16,6 +16,8 @@
 
   For board configuration, see platformio.ini
 
+  https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki/SAM2695-M5Stack-MIDI
+
   Further information, details and examples can be found on our website wiki pages ditronix.net/wiki and also github.com/DitroniX
 */
 
