@@ -4,6 +4,8 @@
 
 **ESPuno Pi Zero** is a STEM Maker and Developer SDK board based on an Espressif ESP32-C6, featuring a wide operating voltage of 5-60V DC, powerful radio module and wrapped in a compact mechanical Pi Zero form.
 
+[![DitroniX WiKi Pages](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/blob/main/Datasheets%20and%20Information/GitGub%20WiKi.png?raw=true)](https://github.com/DitroniX/ESPuno-Pi-Zero_WiFi-BT-Zigbee-Thread-60V/wiki)
+
 ## Available on eBay
 
  - **ESPuno Pi Zero** [ESP32-C6-1](https://www.ebay.co.uk/itm/326650157476)
